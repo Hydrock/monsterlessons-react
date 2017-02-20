@@ -1,7 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 
 class Header extends Component {
-
+  static propTypes = {
+    items: PropTypes.array.isRequired
+  }
 
   render() {
     console.log(this.props.items)
