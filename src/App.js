@@ -3,6 +3,7 @@ import RegistrationForm from './RegistrationForm';
 
 import Block from './block';
 import Menu from './Menu';
+import Func from './Func';
 import './App.css';
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
     return (
       <div className="container">
         <Menu/>
+        <Func/>
         <RegistrationForm/>
         <Block/>
       </div>
